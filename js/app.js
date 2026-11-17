@@ -1,11 +1,13 @@
-let login = "admin";
-let password = "12345";
+const login = "admin";
+const password = "12345";
 
-if (login === "admin" && password === "12345") {
-    console.log("Добро пожаловать!");
-} else if (login === "admin") {
-    console.log("Неверный пароль");
+const userLogin = prompt("Введите логин:");
+const userPassword = prompt("Введите пароль:");
+
+if (userLogin !== login) {
+    alert("Пользователь не найден");
+} else if (userPassword !== password) {
+    alert("Неверный пароль");
 } else {
-    console.log("Пользователь не найден");
+    alert("Добро пожаловать!");
 }
-
