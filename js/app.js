@@ -1,6 +1,6 @@
 
 const login = "admin";
-const password = "12345";
+const password = "2008";
 
 const userLogin = prompt("Введите логин:")
 const userPassword = prompt("Введите пароль:")
